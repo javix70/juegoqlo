@@ -1,0 +1,14 @@
+
+- abrir csv 
+    darle formato de escritura
+abrir juego
+    introducir la cuenta
+    apretar h
+    scrolear hasta panadero
+capturar imagen
+limpiar datos del texto extraidos de la imagen
+    guardar datos en csv
+
+definir cada cierto tiempo.
+
+
