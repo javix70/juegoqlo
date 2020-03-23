@@ -15,7 +15,7 @@ def nothing(x):
     pass
 
 #crea GUI de paleta de colores
-
+"""
 cv.namedWindow("Tracking")
 cv.createTrackbar("LH","Tracking",0,255,nothing)
 cv.createTrackbar("LS","Tracking",0,255,nothing)
@@ -23,10 +23,10 @@ cv.createTrackbar("LV","Tracking",0,255,nothing)
 cv.createTrackbar("UH","Tracking",255,255,nothing)
 cv.createTrackbar("US","Tracking",255,255,nothing)
 cv.createTrackbar("UV","Tracking",255,255,nothing)
-
+"""
 
 #read imagen
-img_cv = cv.imread(".\imagenes\pene3.png")
+img_cv = cv.imread(".\imagenes\obv.png")
 custom_config = 'spa+spa1 --psm 6'
 
 #convert RGB to HSV
